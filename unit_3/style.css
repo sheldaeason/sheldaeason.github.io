@@ -1,0 +1,60 @@
+body{
+	font-family: Lucida Grande
+	text-align: center;
+	background-image:url("images/verizonlogolights.jpg");
+	background-size: cover;
+	color: #dcdcdc;
+	font-family: Lucida Grande;
+
+}
+
+h1{
+	font-size: 32px;
+	font-family: Lucida Grande;
+	text-align: center;
+	color: #dcdcdc;
+
+}
+
+p{
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+ul{
+
+}
+
+li{
+
+}
+
+img{
+
+}
+
+.hr{
+	
+
+}
+
+#slogan{
+	text-align: center;
+	font-size: 28px;
+	font-style: bold;
+
+}
+
+a:link {
+    color: #ed1c24;
+}
+
+/* mouse over link */
+a:hover {
+    color: #dcdcdc;
+}
+
