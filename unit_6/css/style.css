@@ -1,0 +1,217 @@
+/* Verizon Logo */
+.wrapper{
+    background-color: pink;
+    height: 100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+header{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 0em;
+    background-color: #FFED74;
+
+}
+
+nav{
+  background-color: #pink;
+}
+
+hr.style1{
+    border-top: 0.02px solid #959595;
+   
+}
+
+/* Hero image */
+.hero{
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  text-align: left;
+  margin: auto;
+  position: relative; 
+  color: #fff;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+  @font-face {
+ font-family:"NeueHaasGroteskDispW02";
+ src: url(../fonts/NeueHaasGroteskDispW02.eot); /* EOT file for IE */
+}
+
+@font-face {
+ font-family:"NeueHassGroteskDispW02";
+ src: url(../fonts/NeueHaasGroteskDispW02.ttf); /* TTF file for CSS3 browsers */
+}
+
+.hero{
+ font-family:"NeueHaasGroteskDispW02";
+
+}
+
+
+
+
+/* Main Title in image: Welcome to Verizon's Design Studio; */
+.hero h1{
+  font-size: 3.1em;
+  margin-left: 0.5em;
+  text-align: left;
+  position: absolute; 
+  top: 100px;
+  left: 0;
+  right: 6em;
+  bottom: 0;
+  z-index: 1;
+}
+
+@font-face {
+ font-family:"NeueHassGroteskDispW02";
+ src: url(../fonts/NHaasGroteskDSW02-75Bd.eot); /* EOT file for IE */
+}
+
+@font-face {
+ font-family:"NeueHassGroteskDispW02";
+ src: url(../fonts/NHaasGroteskDSW02-75Bd.ttf); /* TTF file for CSS3 browsers */
+}
+
+.hero{
+ font-family:"NeueHassGroteskDispW02";
+ background-image: url('../images/lDyxGqa.jpg');
+ height: 400px;
+}
+/*Better Matters Text*/
+.hero p{
+  font-size: 1.5em;
+  margin-left: 1em;
+  position: absolute; 
+  top: 250px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  font-family:"NeueHassGroteskDispW02";
+}
+.hero img{
+  width: 100%;
+
+}
+
+/* Body */
+body {
+    background-color: white;
+    font-family:"Helvetica";
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+
+/* Nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E8C66A;
+    font-family:"NeueHassGroteskDispW02";
+    src: url(../fonts/NHaasGroteskDSW02-75Bd.ttf); 
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to white on hover */
+li a:hover {
+    background-color: #fff;
+}
+
+
+/* mouse over link */
+a:hover {
+    color: #A80309;
+
+}
+
+h3 {
+	text-align: left;
+  font-family:"NeueHassGroteskDispW02";
+  src: url(../fonts/NHaasGroteskDSW02-75Bd.ttf);
+  margin-left: 0.1m;
+  background-color: #FFE2B8;
+}
+
+.h3style{
+   margin-left: 1.5em;
+   margin-right: 1.5em;
+   background-color: #FFE2B8;
+}
+
+.individualTeams{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  background-color: #FFE2B8;
+}
+
+
+
+.pageFooter {
+  font-family:"NeueHassGroteskDispW02";
+  src: url(../fonts/NHaasGroteskDSW02-75Bd.ttf);
+  background-color: #FFE2B8;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.statement {
+  font-family:"NeueHaasGroteskDispW02";
+  src: url(../fonts/NeueHaasGroteskDispW02.eot);
+  margin-left: 1.2em;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#leftCol {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+  
+}
+#rightCol {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+
+}
+.copyRight {
+    text-align: center;
+    font-size: 0.8em
+
+}
